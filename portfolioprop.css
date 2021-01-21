@@ -1,52 +1,70 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+}   
+
+.main-container{
+  width:100%;
+}
 .flex-container{
   display:flex;
   background-color: blanchedalmond;
   font-size: 30px;
   font-style: italic;
-  }
+  margin-right: 0%;
+}
 
 .home{
   margin: 10px;
   padding: 10px;
   color: black;
-  }
+}
   
 .about{
   margin: 10px;
   padding: 10px;
   color: black;
-  }
+}
     
 .contact{
   margin: 10px;
   padding: 10px;
   color: black;
-  }
+}
       
 .more{
   margin: 10px;
   padding: 10px;
   color: black;
-  }
+}
         
             
-.banner-image{
+#banner-image{
   min-height: 100%;
-  height: 500px;
-  width: 100%;
+  height: 100px;
+  width: 98.8%;
   background-color: lavenderblush;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   opacity: 0.5;
   position: absolute;
-  }
+}
 
-.banner-image:hover{
+#banner-image:hover{
   opacity: 0.5;
-  }
+}
 
-.banner-text{
+.banner-text1{
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left:25%;
+  right: 25%;
+  color: black;
+  font-size:40px;
+}
+
+.banner-text2{
   text-align: center;
   position: absolute;
   top: 50%;
@@ -54,14 +72,41 @@
   right: 25%;
   color: black;
   font-size:40px;
-  }
-
-.navgbar-title{
+}
+  
+.skill-title{
   color: black;
   font-size: 30px;
   font-style: italic;
-  margin: 10px;
-  }
+  margin: 30px;
+}
+
+.skill-container{
+/*  display: flex;*/
+  width: 100%;
+  justify-content: center;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: auto;
+}
+
+.skill{
+/*  display: flex;*/
+  width: 100%;
+  margin-top: 40px;
+}
+
+#skill-image{
+/*  display: flex;*/
+  width:150px;
+  height:150px;
+  margin-right:50px;
+}
+
+#skill-text{
+  margin-top: 30px;
+  font-size:15px;
+}
 
 #p1{
   margin-left: auto;
@@ -78,11 +123,6 @@
   font-size: 20px;
 }
 
-.skill-image{
-  display: flex;
-  padding: 10px;
-  margin: 10px;
-}
 
 table{
   border: 5px  black;
@@ -104,7 +144,7 @@ td{
   background-color: #C1E3E1;
 }
 
-.declr{
+.declaration{
   font-size: 20px;
   font-style: italic;
 }
